@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Dice Simulator</h1>
+        <p>Click the button to roll the dice.</p>
+        
+        <input type="number" id="num_dice" value="1" min="0">
+        <label for="num_dice">Enter the number of dice</label><br><br>
+        
+        <button onclick="rollDice()">Roll Dice</button>
+        
+        <p id="result"></p>
+        <p id="total"></p>
+        <div id="images"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
