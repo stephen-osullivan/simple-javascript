@@ -1,0 +1,57 @@
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: hsl(59, 89%, 86%);
+    padding: 5px;
+}
+
+#container{
+    text-align: center;
+    width: 500px;
+    min-height: 600px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 5px;
+    margin: 0px auto; 
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+input{
+   height: 20px;
+   margin-right: 5px;
+   margin-bottom: 10px;
+   width: 70%;
+   padding: 5px;
+}
+
+button{
+    padding: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: hsl(91, 90%, 85%);
+    cursor: pointer;
+}
+
+#instructions {
+    text-align: left;
+    margin-left: 8%;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+li{
+    margin-left: 5%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.checked{
+    text-decoration: line-through;
+    color: hsl(0, 0%, 50%);
+}
+
+li span {
+    text-align: right;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
